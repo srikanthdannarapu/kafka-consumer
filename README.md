@@ -1,6 +1,6 @@
 # kafka-consumer
 
-#start zookeper
+# start zookeper
 
 navigate to C:\Program Files\kafka_2.12-2.3.1\bin\windows new cmd
 
@@ -9,14 +9,14 @@ run the below command to start zookeeper instance
 zookeeper-server-start.bat C:\Users\sreekanth\Desktop\kafka_2.12-2.3.1\config\zookeeper.properties
 
 
-#start kafka server
+# start kafka server
 navigate to C:\Program Files\kafka_2.12-2.3.1\bin\windows on new cmd
 
 run the below command to start kafka server
 kafka-server-start.bat C:\Users\sreekanth\Desktop\kafka_2.12-2.3.1\config\server.properties
 
 
-#publish message on to topic SRI_TOPIC
+# publish message on to topic SRI_TOPIC
 
 
 
@@ -26,7 +26,7 @@ kafka-console-producer.bat --broker-list localhost:9092 --topic SRI_TOPIC
 
 publish a message on to topic (SRI_TOPIC) say ex: hello world, this message is seen in app logs
 
-#create new 2nd topic JSONTOPIC and publish josn on this 2nd topic
+# create new 2nd topic JSONTOPIC and publish josn on this 2nd topic
 
 open new cmd and create new topic with below command
 
